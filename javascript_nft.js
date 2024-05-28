@@ -40,14 +40,14 @@ function listNFTs() {
     };
 }
 
-// This function will help to show the total number of NFTs minted to the console
+// This function will simply print the kength of soyamNFTs arrat to the console.
 
 function getTotalSupply() {
     console.log("\nTotal number of NFTs minted:", soyamNFTs.length);
 }
 
 // Call the functions below this line
-//minting the nfts
+//minting the nfts called three times
 
 mintNFT("122-46B", "Hazaribagh", 8, "8000000");
 mintNFT("129-21D", "Ranchi", 6, "5200000");
