@@ -40,7 +40,7 @@ function listNFTs() {
     };
 }
 
-// This function will simply print the kength of soyamNFTs arrat to the console.
+// This function will simply print the length of soyamNFTs array to the console.
 
 function getTotalSupply() {
     console.log("\nTotal number of NFTs minted:", soyamNFTs.length);
